@@ -32,6 +32,7 @@ Row.propTypes = {
   xlGutters: guttersSize,
   classes: PropTypes.string
 };
+
 // guttersSize = PropTypes.oneOf(['none', 'xs', 'sm', 'md', 'lg', 'xl']);
 // 'none' === 0px, 'xs' === 5px, 'sm' === 10px, 'md' === 15px, 'lg' === 20px, 'xl' === 25px
 
@@ -46,13 +47,13 @@ Col.propTypes = {
   lgl: columnProps,
   xl: columnProps,
   xsOffset: PropTypes.number,
-  (...)
+  (...),
   xlOffset: PropTypes.number,
   xsHidden: PropTypes.bool,
-  (...)
+  (...),
   xlHidden: PropTypes.bool,
   xsShown: PropTypes.bool,
-  (...)
+  (...),
   xlShown: PropTypes.bool,
   classes: PropTypes.string
 };
