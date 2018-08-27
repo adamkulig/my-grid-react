@@ -1,0 +1,173 @@
+@import '../variables-mixins.scss';
+
+.col {
+  @include media('xs') {
+    &-xs- {
+      @include columnsWidth;
+    }
+  }
+  @include media('sm') {
+    &-sm- {
+      @include columnsWidth;
+    }
+  }
+  @include media('sml') {
+    &-sml- {
+      @include columnsWidth;
+    }
+  }
+  @include media('md') {
+    &-md- {
+      @include columnsWidth;
+    }
+  }
+  @include media('mdl') {
+    &-mdl- {
+      @include columnsWidth;
+    }
+  }
+  @include media('lg') {
+    &-lg- {
+      @include columnsWidth;
+    }
+  }
+  @include media('lgl') {
+    &-lgl- {
+      @include columnsWidth;
+    }
+  }
+  @include media('xl') {
+    &-xl- {
+      @include columnsWidth;
+    }
+  }
+}
+
+.offset {
+  @include media('xs') {
+    &-xs- {
+      @include offsetWidth;
+    }
+  }
+  @include media('sm') {
+    &-sm- {
+      @include offsetWidth;
+    }
+  }
+  @include media('sml') {
+    &-sml- {
+      @include offsetWidth;
+    }
+  }
+  @include media('md') {
+    &-md- {
+      @include offsetWidth;
+    }
+  }
+  @include media('mdl') {
+    &-mdl- {
+      @include offsetWidth;
+    }
+  }
+  @include media('lg') {
+    &-lg- {
+      @include offsetWidth;
+    }
+  }
+  @include media('lgl') {
+    &-lgl- {
+      @include offsetWidth;
+    }
+  }
+  @include media('xl') {
+    &-xl- {
+      @include offsetWidth;
+    }
+  }
+}
+
+.hidden {
+  @include media('xs') {
+    &-xs {
+      display: none;
+    }
+  }
+  @include media('sm') {
+    &-sm {
+      display: none;
+    }
+  }
+  @include media('sml') {
+    &-sml {
+      display: none;
+    }
+  }
+  @include media('md') {
+    &-md {
+      display: none;
+    }
+  }
+  @include media('mdl') {
+    &-mdl {
+      display: none;
+    }
+  }
+  @include media('lg') {
+    &-lg {
+      display: none;
+    }
+  }
+  @include media('lgl') {
+    &-lgl {
+      display: none;
+    }
+  }
+  @include media('xl') {
+    &-xl {
+      display: none;
+    }
+  }
+}
+
+.shown {
+  @include media('xs') {
+    &-xs {
+      display: block;
+    }
+  }
+  @include media('sm') {
+    &-sm {
+      display: block;
+    }
+  }
+  @include media('sml') {
+    &-sml {
+      display: block;
+    }
+  }
+  @include media('md') {
+    &-md {
+      display: block;
+    }
+  }
+  @include media('mdl') {
+    &-mdl {
+      display: block;
+    }
+  }
+  @include media('lg') {
+    &-lg {
+      display: block;
+    }
+  }
+  @include media('lgl') {
+    &-lgl {
+      display: block;
+    }
+  }
+  @include media('xl') {
+    &-xl {
+      display: block;
+    }
+  }
+}
