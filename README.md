@@ -1,11 +1,19 @@
-Project of my own grid, similar to Bootstrap grid.
+My fifth project with React.js
 
-- made in React.js for React.js
+It's a project of my own grid, similar to Bootstrap grid.
+- it contains three react components: Container, Row and Col
 - 24 column grid
 - mobile-first
 - SCSS mixins and variables
 - 8 breakpoints
 
+I used:
+- Create-react-app
+- React.js
+- SCSS (RWD)
+- Javascript (ES6)
+
+More about grid
 Breakpoints: 
 - xs (0px default)
 - sm (576px)
