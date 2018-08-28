@@ -1,4 +1,4 @@
-My fifth project with React.js
+My sixth project with React.js
 
 It's a project of my own grid, similar to Bootstrap grid.
 - it contains three react components: Container, Row and Col
