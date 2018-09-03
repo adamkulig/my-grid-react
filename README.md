@@ -7,11 +7,16 @@ It's a project of my own grid, similar to Bootstrap grid.
 - SCSS mixins and variables
 - 8 breakpoints
 
+GitHub Pages:
+https://adamkulig.github.io/my-grid-react/
+
 I used:
 - Create-react-app
 - React.js
 - SCSS (RWD)
 - Javascript (ES6)
+
+Date: 08.2018
 
 More about grid
 Breakpoints: 
