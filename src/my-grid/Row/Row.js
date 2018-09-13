@@ -7,11 +7,11 @@ class Row extends Component {
   render() {
     const classes = classNames({
       row: true,
-      [`xs-gutters-${this.props.gutters}`]: this.props.gutters,
-      [`sm-gutters-${this.props.smGutters}`]: this.props.smGutters,
-      [`md-gutters-${this.props.mdGutters}`]: this.props.mdGutters,
-      [`lg-gutters-${this.props.lgGutters}`]: this.props.lgGutters,
-      [`xl-gutters-${this.props.xlGutters}`]: this.props.xlGutters,
+      [`gutters-xs-${this.props.gutters}`]: this.props.gutters,
+      [`gutters-sm-${this.props.smGutters}`]: this.props.smGutters,
+      [`gutters-md-${this.props.mdGutters}`]: this.props.mdGutters,
+      [`gutters-lg-${this.props.lgGutters}`]: this.props.lgGutters,
+      [`gutters-xl-${this.props.xlGutters}`]: this.props.xlGutters,
       [this.props.classes]: this.props.classes
     });
     return (

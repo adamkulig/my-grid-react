@@ -171,3 +171,31 @@
     }
   }
 }
+
+.xs-gutters- {
+  @include guttersWidth
+}
+
+@include media('sm') {
+  .sm-gutters- {
+    @include guttersWidth;
+  }
+}
+
+@include media('md') {
+  .md-gutters- {
+    @include guttersWidth;
+  }
+}
+
+@include media('lg') {
+  .lg-gutters- {
+    @include guttersWidth;
+  }
+}
+
+@include media('xl') {
+  .xl-gutters- {
+    @include guttersWidth;
+  }
+}

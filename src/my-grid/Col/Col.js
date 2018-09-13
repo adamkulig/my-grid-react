@@ -38,6 +38,11 @@ class Col extends Component {
       'shown-lg': this.props.lgShown,
       'shown-lgl': this.props.lglShown,
       'shown-xl': this.props.xlShown,
+      [`gutters-xs-${this.props.gutters}`]: this.props.gutters,
+      [`gutters-sm-${this.props.smGutters}`]: this.props.smGutters,
+      [`gutters-md-${this.props.mdGutters}`]: this.props.mdGutters,
+      [`gutters-lg-${this.props.lgGutters}`]: this.props.lgGutters,
+      [`gutters-xl-${this.props.xlGutters}`]: this.props.xlGutters,
       [this.props.classes]: this.props.classes
      });
     return (
@@ -52,6 +57,8 @@ const columnProps = PropTypes.oneOfType([
   PropTypes.number,
   PropTypes.oneOf(['auto', 'contentWidth']),
 ]);
+
+const guttersSize = PropTypes.oneOf(['none', 'xs', 'sm', 'md', 'lg', 'xl']);
 
 Col.propTypes = {
   xs: columnProps,
@@ -86,6 +93,11 @@ Col.propTypes = {
   lgShown: PropTypes.bool,
   lglShown: PropTypes.bool,
   xlShown: PropTypes.bool,
+  gutters: guttersSize,
+  smGutters: guttersSize,
+  mdGutters: guttersSize,
+  lgGutters: guttersSize,
+  xlGutters: guttersSize,
   classes: PropTypes.string
 };
 

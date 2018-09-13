@@ -5,30 +5,30 @@
   flex-wrap: wrap;
 }
 
-.xs-gutters- {
-  @include guttersWidth
-}
-
-@include media('sm') {
-  .sm-gutters- {
-    @include guttersWidth;
+.gutters {
+  @include media('xs') {
+    &-xs {
+      @include guttersWidth;
+    }
   }
-}
-
-@include media('md') {
-  .md-gutters- {
-    @include guttersWidth;
+  @include media('sm') {
+    &-sm {
+      @include guttersWidth;
+    }
   }
-}
-
-@include media('lg') {
-  .lg-gutters- {
-    @include guttersWidth;
+  @include media('md') {
+    &-md {
+      @include guttersWidth;
+    }
   }
-}
-
-@include media('xl') {
-  .xl-gutters- {
-    @include guttersWidth;
+  @include media('lg') {
+    &-lg {
+      @include guttersWidth;
+    }
+  }
+  @include media('xl') {
+    &-xl {
+      @include guttersWidth;
+    }
   }
 }
