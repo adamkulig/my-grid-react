@@ -25,7 +25,7 @@ class App extends Component {
             <Col xsOffset={3} xs={3}>
               <div className={'item item-1'}></div>
             </Col>
-            <Col xs={12}>
+            <Col xs={12} gutterSelf='md'>
               <div className={'item item-2'}></div>
             </Col>
             <Col xs={3}>

@@ -39,9 +39,7 @@ Container.propTypes = {
 - Row 
 Row.propTypes = {
   gutters: guttersSize,
-  smGutters: guttersSize,
-  mdGutters: guttersSize,
-  lgGutters: guttersSize,
+  (...),
   xlGutters: guttersSize,
   classes: PropTypes.string
 };
@@ -68,6 +66,9 @@ Col.propTypes = {
   xsShown: PropTypes.bool,
   (...),
   xlShown: PropTypes.bool,
+  gutterSelf: guttersSize,
+  (...),
+  xlGutterSelf: guttersSize,
   classes: PropTypes.string
 };
 

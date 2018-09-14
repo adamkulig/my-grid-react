@@ -8,27 +8,27 @@
 .gutters {
   @include media('xs') {
     &-xs {
-      @include guttersWidth;
+      @include guttersWidth
     }
   }
   @include media('sm') {
     &-sm {
-      @include guttersWidth;
+      @include guttersWidth
     }
   }
   @include media('md') {
     &-md {
-      @include guttersWidth;
+      @include guttersWidth
     }
   }
   @include media('lg') {
     &-lg {
-      @include guttersWidth;
+      @include guttersWidth
     }
   }
   @include media('xl') {
     &-xl {
-      @include guttersWidth;
+      @include guttersWidth
     }
   }
 }

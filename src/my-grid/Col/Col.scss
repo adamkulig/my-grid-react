@@ -2,42 +2,42 @@
 
 .col {
   @include media('xs') {
-    &-xs- {
+    &-xs {
       @include columnsWidth;
     }
   }
   @include media('sm') {
-    &-sm- {
+    &-sm {
       @include columnsWidth;
     }
   }
   @include media('sml') {
-    &-sml- {
+    &-sml {
       @include columnsWidth;
     }
   }
   @include media('md') {
-    &-md- {
+    &-md {
       @include columnsWidth;
     }
   }
   @include media('mdl') {
-    &-mdl- {
+    &-mdl {
       @include columnsWidth;
     }
   }
   @include media('lg') {
-    &-lg- {
+    &-lg {
       @include columnsWidth;
     }
   }
   @include media('lgl') {
-    &-lgl- {
+    &-lgl {
       @include columnsWidth;
     }
   }
   @include media('xl') {
-    &-xl- {
+    &-xl {
       @include columnsWidth;
     }
   }
@@ -45,42 +45,42 @@
 
 .offset {
   @include media('xs') {
-    &-xs- {
+    &-xs {
       @include offsetWidth;
     }
   }
   @include media('sm') {
-    &-sm- {
+    &-sm {
       @include offsetWidth;
     }
   }
   @include media('sml') {
-    &-sml- {
+    &-sml {
       @include offsetWidth;
     }
   }
   @include media('md') {
-    &-md- {
+    &-md {
       @include offsetWidth;
     }
   }
   @include media('mdl') {
-    &-mdl- {
+    &-mdl {
       @include offsetWidth;
     }
   }
   @include media('lg') {
-    &-lg- {
+    &-lg {
       @include offsetWidth;
     }
   }
   @include media('lgl') {
-    &-lgl- {
+    &-lgl {
       @include offsetWidth;
     }
   }
   @include media('xl') {
-    &-xl- {
+    &-xl {
       @include offsetWidth;
     }
   }
@@ -172,30 +172,30 @@
   }
 }
 
-.xs-gutters- {
-  @include guttersWidth
-}
-
-@include media('sm') {
-  .sm-gutters- {
-    @include guttersWidth;
+.col.gutter-self {
+  @include media('xs') {
+    &-xs {
+      @include gutterSelfWidth
+    }
   }
-}
-
-@include media('md') {
-  .md-gutters- {
-    @include guttersWidth;
+  @include media('sm') {
+    &-sm {
+      @include gutterSelfWidth
+    }
   }
-}
-
-@include media('lg') {
-  .lg-gutters- {
-    @include guttersWidth;
+  @include media('md') {
+    &-md {
+      @include gutterSelfWidth
+    }
   }
-}
-
-@include media('xl') {
-  .xl-gutters- {
-    @include guttersWidth;
+  @include media('lg') {
+    &-lg {
+      @include gutterSelfWidth
+    }
+  }
+  @include media('xl') {
+    &-xl {
+      @include gutterSelfWidth
+    }
   }
 }

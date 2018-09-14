@@ -6,6 +6,7 @@ import './Col.scss';
 class Col extends Component {
   render() {
     const classes = classNames({
+      col: true,
       [`col-xs-${this.props.xs}`]: this.props.xs,
       [`col-sm-${this.props.sm}`]: this.props.sm,
       [`col-sml-${this.props.sml}`]: this.props.sml,
@@ -38,11 +39,11 @@ class Col extends Component {
       'shown-lg': this.props.lgShown,
       'shown-lgl': this.props.lglShown,
       'shown-xl': this.props.xlShown,
-      [`gutters-xs-${this.props.gutters}`]: this.props.gutters,
-      [`gutters-sm-${this.props.smGutters}`]: this.props.smGutters,
-      [`gutters-md-${this.props.mdGutters}`]: this.props.mdGutters,
-      [`gutters-lg-${this.props.lgGutters}`]: this.props.lgGutters,
-      [`gutters-xl-${this.props.xlGutters}`]: this.props.xlGutters,
+      [`gutter-self-xs-${this.props.gutterSelf}`]: this.props.gutterSelf,
+      [`gutter-self-sm-${this.props.smGutterSelf}`]: this.props.smGutterSelf,
+      [`gutter-self-md-${this.props.mdGutterSelf}`]: this.props.mdGutterSelf,
+      [`gutter-self-lg-${this.props.lgGutterSelf}`]: this.props.lgGutterSelf,
+      [`gutter-self-xl-${this.props.xlGutterSelf}`]: this.props.xlGutterSelf,
       [this.props.classes]: this.props.classes
      });
     return (
@@ -93,11 +94,11 @@ Col.propTypes = {
   lgShown: PropTypes.bool,
   lglShown: PropTypes.bool,
   xlShown: PropTypes.bool,
-  gutters: guttersSize,
-  smGutters: guttersSize,
-  mdGutters: guttersSize,
-  lgGutters: guttersSize,
-  xlGutters: guttersSize,
+  gutterSelf: guttersSize,
+  smGutterSelf: guttersSize,
+  mdGutterSelf: guttersSize,
+  lgGutterSelf: guttersSize,
+  xlGutterSelf: guttersSize,
   classes: PropTypes.string
 };
 
