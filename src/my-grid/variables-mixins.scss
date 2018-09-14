@@ -60,11 +60,11 @@ $breakpoint-xl: 1200px;
   &-22 {flex: 0 0 91.66666%;}
   &-23 {flex: 0 0 95.83333%;}
   &-24 {flex: 0 0 100%;}
-  &contentWidth {
+  &-contentWidth {
     flex: 0 0 auto;
     width: auto;
   }
-  &auto {
+  &-auto {
     flex-basis: 0;
     flex-grow: 1;
     max-width: 100%;
